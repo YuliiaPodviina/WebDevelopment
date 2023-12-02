@@ -1,0 +1,12 @@
+body{
+    overflow-x: hidden;
+}
+.row div{
+    background-color: grey;
+    text-align: center;
+    height: 100px;
+    border-radius: 2px;
+}
+.row div:first-child , .row div:nth-child(3){
+    background-color: lightgrey;
+}
