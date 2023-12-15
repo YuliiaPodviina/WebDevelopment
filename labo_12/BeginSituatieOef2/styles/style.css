@@ -35,7 +35,6 @@ main{
     background-color: grey;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
 }
 section{
     margin: 5px;
@@ -69,6 +68,5 @@ footer p a{
 @media screen and (max-width:700px) {
     main{
         flex-direction: column;
-        flex-wrap: nowrap;
     }
 }
