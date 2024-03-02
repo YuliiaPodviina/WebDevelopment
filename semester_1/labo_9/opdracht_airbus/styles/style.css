@@ -1,0 +1,119 @@
+body{
+    width: 95%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*******top*******gebied**********/
+header{
+    margin-top: 0;
+    height: 200px;
+    background-image: url("../images/bgsky3.jpg");
+    background-size: cover;
+    text-align: center;
+    color: darkblue;
+}
+.boventitel{
+    font-size: 300%;
+    margin-top: 2px;
+}
+.ondertitel{
+    font-size: 240%;
+    font-weight: bold;
+}
+header img{
+    position: relative;
+    clear: both;
+    left: 140px;
+    bottom: 150px;
+}
+/*******news*******gebied**********/
+#news{
+    width: 25%;
+    background-color: #dddddd;
+    box-sizing: border-box;
+    border: 1px solid #999999;
+    float: right;
+}
+#news p{
+    padding: 10px;
+    color: #666666;
+    font-size: 90%;
+}
+#news h3{
+    color: white;
+    background-color: blue;
+    text-align: center;
+    font-size: 120%;
+}
+/*******main*******gebied**********/
+main{
+    width: 75%;
+    box-sizing: border-box;
+    float: left;
+}
+figure{
+    box-sizing: border-box;
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+/*******introduction*******gebied**********/
+#introduction{
+    background-color: white;
+    color: black;
+    text-align: justify;
+}
+#introduction p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+span{
+    color:blue;
+    font-weight: bold;
+    font-style: italic;
+}
+/*******gallery*******gebied**********/
+#gallery{
+    background-color: #999999;
+}
+.foto img{
+    width: 180px;
+    height: 180px;
+}
+.foto{
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    border: #999999 dashed 1px;
+    margin: 20px;
+}
+/*******bottom*******gebied**********/
+footer {
+    clear:both;
+    color: white;
+    line-height: 2em;
+    background-color: #666666;
+}
+.left, .right {
+    padding-left: 120px;
+    box-sizing: border-box;
+    float: left;
+    background-color: #666666;
+    width: 50%;
+}
+.right{
+    padding-left: 0;
+}
+footer a:hover {
+    color: red;
+}
+footer a {
+    color: white;
+}
+aside {
+    clear:both;
+    text-align: center;
+    padding: 10px 0;
+}

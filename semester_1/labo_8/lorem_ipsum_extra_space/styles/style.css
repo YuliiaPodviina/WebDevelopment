@@ -1,0 +1,10 @@
+section{
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+}
+div{
+    margin: 10px;
+    border:solid black 1px;
+    padding: 10px;
+}

@@ -1,0 +1,8 @@
+.menubar > li {
+    display:inline-block;
+    width:150px;
+}
+
+.menubar > li > a {
+    color:red;
+}
