@@ -1,0 +1,105 @@
+body{
+    width: 95%;
+    font: 1.2em Verdana, Helvetica, Arial;
+    margin: 0 auto;
+}
+/*font*/
+h1, h2{
+    color: #007e7e;
+}
+h1{
+    font-size: 150%;
+}
+h2{
+    font-size: 130%;
+}
+.specials h1{
+    color: darkslategrey;
+}
+.specials .lemon{
+    color: yellow;
+}
+.specials .chai{
+    color: brown;
+}
+.specials .black{
+    color: #232546;
+}
+footer{
+    font-size: 0.6em;
+    text-align: center;
+}
+/*weekly specials*/
+.specials p a:hover{
+    background: brown;
+    color: white;
+    text-decoration: none;
+}
+.specials p a{
+    color: black;
+}
+.weekly{
+    box-sizing: border-box;
+    float: right;
+    width: 28%;
+}
+.specials{
+    margin: 10px;
+    border:solid #007e7e 3px;
+    padding: 10px;
+    text-align: center;
+    background-image: url("../images/cocktail.gif");
+    background-repeat: repeat-x;
+}
+/*main*/
+.main{
+    box-sizing: border-box;
+    float: left;
+    width: 70%;
+}
+.main article p a{
+    color: dimgrey;
+}
+.music{
+    margin-bottom: 140px;
+}
+.left{
+    margin-bottom: 20px;
+}
+/*guarantee*/
+.guarantee{
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background: #a7cece;
+    border: white 5px;
+    border-style: dotted dashed;
+}
+p#guarantee{
+    margin-left: 40px;
+}
+p#guarantee a{
+    color: #444444;
+}
+/*ster*/
+.ster{
+    background-image:url("../images/background.gif");
+    background-size: 65px 65px;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+/*foto boven*/
+.head{
+    text-align: center;
+}
+.head p{
+    margin-top: 0;
+}
+.head img{
+    width: 500px;
+}
+/*footer*/
+footer{
+    box-sizing: border-box;
+    float: right;
+}

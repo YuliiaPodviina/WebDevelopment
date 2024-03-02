@@ -9,5 +9,4 @@ const kopieer = () => {
     let tekst = txtInput.value;
     txtOutput.innerHTML = tekst;
 }
-
 window.addEventListener("load", setup);
