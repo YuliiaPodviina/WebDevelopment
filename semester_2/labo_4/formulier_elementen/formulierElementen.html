@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>formulierElementen.html</title>
+</head>
+<body>
+<form action="formulierElementen.html" method="post">
+    <div class="formulier">
+        <div class="input_veld">
+            <label for="first_name">First name*: </label><input type="text" name="first_name" id="first_name" size="20" maxlength="50" placeholder="Your first name" required autofocus="autofocus">
+        </div>
+
+        <div class="input_veld">
+            <label for="last_name">Last name*: </label><input type="text" name="last_name" id="last_name" size="20" maxlength="50" placeholder="Your last name" required>
+        </div>
+
+        <span>Which sport do you train?</span>
+        <div class="input_veld">
+            <label for="running">Running</label> <input type="checkbox" name="running" id="running">
+        </div>
+
+        <div class="input_veld">
+            <label for="swimming">Swimming</label> <input type="checkbox" name="swimming" id="swimming">
+        </div>
+
+        <div class="input_veld">
+            <label for="rowing">Rowing</label> <input type="checkbox" name="rowing" id="rowing">
+        </div>
+
+        <span>What is your gender?</span>
+        <div class="input_veld">
+            <input type="radio" name="gender" id="female" ><label for="female">Female</label>
+        </div>
+
+        <div class="input_veld">
+            <input type="radio" name="gender" id="male" ><label for="male">Male</label>
+        </div>
+
+        <div class="input_veld">
+            <label for="movie">Favorite movie: </label><input type="text" name="movie" id="movie" size="20" maxlength="50" >
+        </div>
+
+        <div class="input_veld">
+            <label for="quote">Favorite quote: </label><input type="text" name="quote" id="quote" size="20" maxlength="50" placeholder="Write your favorite quote">
+        </div>
+
+        <div class="input_veld">
+            <label for="password">Password*: </label><input type="password" name="password" id="password" size="20" maxlength="10" required>
+        </div>
+
+        <div class="input_veld">
+            <label for="food">Favorite food: </label><select name="food" size="1" id="food">
+            <option value="Hamburger">Hamburger</option>
+            <option value="Pizza">Pizza</option>
+            <option value="Fries">Fries</option>
+        </select>
+        </div>
+
+        <div class="input_veld">
+            <input type="file" id="bestand" name="bestand"><label for="bestand"></label>
+        </div>
+
+        <div class="input_veld">
+            <label for="email">Email address: </label> <input type="email" name="email" id="email" placeholder="Enter your email address">
+        </div>
+
+        <div class="input_veld">
+            <label for="url">Favorite site: </label> <input type="url" name="url" id="url" placeholder="Enter the URL of your favorite site">
+        </div>
+
+        <div class="input_veld">
+            <label for="number">Favorite number between 1-10: </label> <input type="number" min="1" max="10" name="number" id="number">
+        </div>
+
+        <div class="input_veld">
+            <label for="range">Favorite number between 11-1000: </label> <input type="range" min="11" max="1000" name="range" id="range">
+        </div>
+
+        <div class="input_veld">
+            <label for="date">When were you born? </label> <input type="date" id="date" name="date">
+        </div>
+
+        <div class="input_veld">
+            <label for="reg_number">Belgium zip-code reg number*: </label><input type="text" name="reg_number" id="reg_number" size="20" maxlength="4" minlength="4" placeholder="9999" required >
+        </div>
+
+        <div class="input_veld">
+            <label for="search">Search for something: </label> <input type="search" name="search" id="search">
+        </div>
+
+        <div class="input_veld">
+            <label for="color">What is your favorite color? </label> <input type="color" id="color" name="color" value="">
+        </div>
+
+        <div class="input_veld">
+            <button type="submit" name="button" value="Submit">Submit</button>
+        </div>
+    </div>
+</form>
+<script src="scripts/code.js"></script>
+</body>
+</html>
