@@ -1,0 +1,41 @@
+#game{
+    display: grid;
+    grid-template-columns: auto;
+    width: 100px;
+}
+#playField {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: stretch;
+    gap: 1rem;
+}
+h1{
+    font-family: "Segoe UI",Arial,sans-serif;
+    text-align: center;
+    margin-top: 0;
+    color: #e07aaf;
+}
+
+.juist{
+    border: solid 2px lightgreen;
+}
+.fout{
+    border: solid 2px red;
+}
+.kaart{
+    width: 130px;
+    height: 180px;
+    position: relative;
+    box-sizing: border-box;
+}
+.voorkant,.achterkant{
+    width: 130px;
+    height: 180px;
+    position: absolute;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+}
+.achterkant.omgedraaid{
+    display: none;
+}

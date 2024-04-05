@@ -1,0 +1,14 @@
+#playField{
+    position:relative;
+    height: 750px;
+    width: 1650px;
+    border: black solid 1px;
+}
+
+#target {
+    position: absolute;
+}
+
+.hidden{
+    display: none;
+}
