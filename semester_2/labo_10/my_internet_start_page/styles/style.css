@@ -1,0 +1,43 @@
+body{
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.card.youtube-card{
+    background-color: #ff0000;
+    color: white;
+}
+
+.btn.youtube-btn{
+    background-color: #282828;
+    color: white;
+}
+
+.card.google-card{
+    background-color: #4285f4;
+    color: white;
+}
+
+.btn.google-btn{
+    background-color: #fbbc05;
+    color: white;
+}
+
+.card.twitter-card{
+    background-color: #1da1f2;
+    color: white;
+}
+
+.btn.twitter-btn{
+    background-color: #14171a;
+    color: white;
+}
+
+.card.instagram-card{
+    background-color: #c32aa3;
+    color: white;
+}
+
+.btn.instagram-btn{
+    background-color: #f46f30;
+    color: white;
+}
